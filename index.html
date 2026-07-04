@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Neffati | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="logo">MN<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="greeting">Hello, I'm</p>
+        <h1>Mohamed <span class="highlight">Neffati</span></h1>
+        <h2 class="role">Software Developer <span class="separator">|</span> AI Enthusiast</h2>
+        <p class="bio">
+          A passionate developer graduated in Computer Science — Business Information Systems
+          from the Institut Supérieur de Gestion de Tunis. I build web applications, automate
+          workflows, and explore the intersection of AI and real-world business problems.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/Naffeti12" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/mohamed-neffati-29a44438a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:mednfft.1@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-wrapper">
+          <img src="photo.jpg" alt="Mohamed Neffati"/>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="highlight">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Education</h3>
+          <p>Bachelor's degree in Computer Science — Business Information Systems, ISG Tunis (2026)</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-code"></i>
+          <h3>Development</h3>
+          <p>Experienced in full-stack web development across multiple languages and frameworks, from PHP to Django and Node.js</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-brain"></i>
+          <h3>AI & Innovation</h3>
+          <p>Built a multi-agent AI platform for QSE risk management using LangGraph and LLaMA 3.2 as my final year project</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-server"></i>
+          <h3>DevOps</h3>
+          <p>Hands-on experience with Docker, Jenkins CI/CD pipelines, Nginx, and containerized application deployment</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+      <div class="skills-wrapper">
+        <div class="skill-category">
+          <h3><i class="fas fa-terminal"></i> Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>Java</span><span>PHP</span>
+            <span>JavaScript</span><span>SQL</span><span>HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+          <div class="skill-tags">
+            <span>Django</span><span>Laravel</span><span>Node.js</span>
+            <span>LangGraph</span><span>Java EE</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & DevOps</h3>
+          <div class="skill-tags">
+            <span>Docker</span><span>Jenkins</span><span>Git</span>
+            <span>Nginx</span><span>GitHub</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="skill-tags">
+            <span>MySQL</span><span>PostgreSQL</span><span>SQLite</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-robot"></i> AI & ML</h3>
+          <div class="skill-tags">
+            <span>LLaMA 3.2</span><span>Ollama</span><span>Multi-Agent Systems</span>
+            <span>LangGraph</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="card-header">
+            <div class="card-icon"><i class="fas fa-robot"></i></div>
+            <span class="badge">Final Year Project</span>
+          </div>
+          <h3>QALITAS QSE</h3>
+          <p>An AI-powered multi-agent platform built with LangGraph and LLaMA 3.2 to automate QSE risk and opportunity management, with automated RPN scoring and report generation.</p>
+          <div class="card-tags">
+            <span>Python</span><span>LangGraph</span><span>LLaMA 3.2</span><span>AI</span>
+          </div>
+          <a href="https://github.com/Naffeti12/PFE-MultiAgents-QSE" target="_blank" class="card-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="card-header">
+            <div class="card-icon"><i class="fas fa-infinity"></i></div>
+          </div>
+          <h3>Integration SI</h3>
+          <p>Full-stack DevOps project with a Node.js REST API, Nginx reverse proxy, Jenkins CI/CD pipeline, and full Docker containerization.</p>
+          <div class="card-tags">
+            <span>Node.js</span><span>Docker</span><span>Jenkins</span><span>Nginx</span>
+          </div>
+          <a href="https://github.com/Naffeti12/integration-si" target="_blank" class="card-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="card-header">
+            <div class="card-icon"><i class="fas fa-plane"></i></div>
+          </div>
+          <h3>Aircraft Management</h3>
+          <p>A Django web application for managing aircraft records, including fleet tracking, model management, and manufacturing date handling.</p>
+          <div class="card-tags">
+            <span>Python</span><span>Django</span><span>PostgreSQL</span>
+          </div>
+          <a href="https://github.com/Naffeti12/aircraft_mangement_project_in_django" target="_blank" class="card-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="card-header">
+            <div class="card-icon"><i class="fas fa-hand-holding-heart"></i></div>
+          </div>
+          <h3>HelpHub</h3>
+          <p>A PHP/MySQL web platform connecting donors and associations to manage and track donation campaigns with a clean, user-friendly interface.</p>
+          <div class="card-tags">
+            <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
+          </div>
+          <a href="https://github.com/Naffeti12/donations-project" target="_blank" class="card-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="card-header">
+            <div class="card-icon"><i class="fas fa-calendar-check"></i></div>
+          </div>
+          <h3>Reservation Salles</h3>
+          <p>A Java EE web application for managing room reservations, built with Servlets, JSP and MySQL with a clean MVC architecture.</p>
+          <div class="card-tags">
+            <span>Java EE</span><span>JSP</span><span>MySQL</span>
+          </div>
+          <a href="https://github.com/Naffeti12/reservation-salles" target="_blank" class="card-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="card-header">
+            <div class="card-icon"><i class="fas fa-landmark"></i></div>
+          </div>
+          <h3>Populations Tunisie</h3>
+          <p>A beautifully designed static website exploring the ancient populations of Tunisia — Capsian, Carthaginian, and Islamic civilizations — with rich visuals and historical content.</p>
+          <div class="card-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/Naffeti12/Populations-Tunisie" target="_blank" class="card-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+      <p class="contact-sub">I'm open to opportunities, collaborations, or just a chat. Feel free to reach out!</p>
+      <div class="contact-cards">
+        <a href="mailto:mednfft.1@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>mednfft.1@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/mohamed-neffati-29a44438a/" target="_blank" class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/Naffeti12" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed & Built by <span class="highlight">Mohamed Neffati</span> · 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
